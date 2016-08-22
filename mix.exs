@@ -7,6 +7,7 @@ defmodule Issues.Mixfile do
      version: "0.1.0",
      elixir: "~> 1.3",
      name: "Github Issue Displayer",
+     source_url: "https://github.com/egeersoz/github-issue-displayer/",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
